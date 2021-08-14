@@ -1,0 +1,3 @@
+py manage.py makemigrations pa reflejar,guardar in migration se hace primero antes de makemigrations
+py manage.py migrate para migrar a base de datos todo
+pipenv run s	pa ejecutar server
