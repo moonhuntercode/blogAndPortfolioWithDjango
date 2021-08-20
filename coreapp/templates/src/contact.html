@@ -1,12 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contacto-Victor code</title>
+	<!--Estilos -->
+	{% load static %}
+	<link rel="stylesheet" href=" {% static 'coreappstatic/css/bootstrap.min.css' %}">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="{% static 'coreappstatic/css/fontello.css'%}">
+	<link rel="stylesheet" href="{% static 'coreappstatic/css/styles.css'%}">
+
 </head>
+
 <body>
-    <h1>contact</h1>
+	<header>
+		<div class="container">
+			<!-- Logo Nombre y Menu -->
+			<div class="nav row rounded-top align-items-stretch justify-content-between">
+				<!-- Nombre de usuario -->
+				<div
+					class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+					<a class="nombre" href="index.html">victor code</a>
+					<samp class="icono icon-dot"></samp>
+					<p>Diseño Grafico</p>
+				</div>
+				<!-- Menu de navegación -->
+				<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+					<a href="index.html" class="c-1 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Portafolio</span>
+							<i class="icono icon-briefcase"></i>
+						</div>
+					</a>
+					<a href="about.html" class="c-2 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Acerca de</span>
+							<i class="icono icon-user"></i>
+						</div>
+					</a>
+					<a href="contact.html" class="c-3 d-flex align-items-center">
+						<div class="d-flex flex-column text-center">
+							<span>Contacto</span>
+							<i class="icono icon-mail"></i>
+						</div>
+					</a>
+				</nav>
+			</div>
+
+			<!--imagen de Cabecera -->
+			<div class="row slider">
+				<div class="col">
+					<img src="img/contact-img.jpg" class="w-100" alt="Responsive image">
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!--Contenido-->
+	<main>
+		<!--Acerca de - contenido -->
+		<div class="container">
+			<div class="row contenedor">
+				<div class="col">
+					<h2 class="titulo">Contactar a victor code</h2>
+					<div class="row contacto justify-content-center align-items-center">
+						<div class="col-12 col-lg-2 col-md-2">
+							<a href="#" class="icono icon-phone phone"></a>
+						</div>
+						<div class="col-12 col-lg-3 col-md-3">
+							<p class="text-center">+591 69622403</p>
+						</div>
+						<div class="col-12 col-lg-7 col-md-7">
+							<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante </p>
+						</div>
+					</div>
+
+					<div class="row contacto justify-content-center align-items-center">
+						<div class="col-12 col-lg-2 col-md-2">
+							<a href="#" class="icono icon-mail mail"></a>
+						</div>
+						<div class="col-12 col-lg-3 col-md-3">
+							<p class="text-center">nombre@ejemplo.com</p>
+						</div>
+						<div class="col-12 col-lg-7 col-md-7">
+							<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante </p>
+						</div>
+					</div>
+
+					<div class="row contacto justify-content-center align-items-center">
+						<div class="col-12 col-lg-2 col-md-2">
+							<a href="#" class="icono icon-whatsapp whatsapp"></a>
+						</div>
+						<div class="col-12 col-lg-3 col-md-3">
+							<p class="text-center">+051 000 000 000
+							</p>
+						</div>
+						<div class="col-12 col-lg-7 col-md-7">
+							<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!--Piede Pagina Footer -->
+	<footer>
+		<div class="container">
+			<div class="row redes-sociales justify-content-center">
+				<div class="col-auto">
+					<a href="#" class="icono icon-facebook facebook"></a>
+					<a href="#" class="icono icon-twitter twitter"></a>
+					<a href="#" class="icono icon-instagram instagram"></a>
+				</div>
+				<div class="col-12 text-center copyright">
+					<samp>
+						<p>Copyright &copy; 2019 · victor code (Diseñador Grafico) </p>
+					</samp>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	<!-- Java Script -->
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
 </body>
+
 </html>
